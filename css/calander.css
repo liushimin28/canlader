@@ -1,0 +1,96 @@
+*{
+	font-weight:600;
+
+}
+li{
+	list-style: none;
+	float:left;
+	width:14.28%;
+	height:50px;
+	text-align:center;
+	/*margin-bottom:2px;*/
+	padding-top:5px;
+	padding-bottom: 5px;
+	box-sizing:border-box;
+}
+ul{
+
+}
+@media only screen and (max-width:769px){
+#calander{
+	width:100%;
+	height:410px;
+	margin:30px auto;
+	border:3px solid #57ABFF;
+	padding:5px;
+}
+}
+@media only screen and (min-width:768px){
+#calander{
+	width:640px;
+	height:410px;
+	margin:30px auto;
+	border:3px solid #57ABFF;
+	padding:5px;
+}
+}
+#left-side{
+	height:400px;
+	width:80%;
+	float:left;
+	margin-top:10px;
+
+}
+#select_year,#select_month{
+	width:15%;
+	
+}
+#seletor{
+	height:34px;
+	border-bottom: 1px solid #57ABFF;
+	text-align:center;
+}
+#week,#week_0,#week_1,#week_2,#week_3,#week_4,#week_5{
+	border-bottom: 1px solid #C8CACC;
+	padding: 0;
+	margin:0;
+	color:#444;
+	
+}
+#week:after,#data:after,#week_0:after,#week_1:after,#week_2:after,#week_3:after,#week_4:after,#week_5:after{
+	content:"";
+	display:block;
+	height:0;
+	visibility:hidden;
+	clear:both;
+}
+#data{
+	width:100%;
+	
+}
+#t_info{
+	float:left;
+	width:19%;
+	height:388px;
+	margin-left: 1%;
+	background-color:#66B3FF ;
+	color:#fff;
+	font-size:20px;
+	text-align:center;
+	padding-top:20px;
+}
+#t_date{
+	font-size:1em;
+	padding:10px;
+	text-align:center;
+	margin:0 auto;
+	background-color:#FFBB00;
+}
+#select_today{
+	border:none;
+	background-color:#66B3FF ;
+	padding:2px 8px;
+	font-size:14px;
+	color:#fff;
+	
+}
